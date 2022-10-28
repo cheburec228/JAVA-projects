@@ -71,8 +71,7 @@
   - ![image](assets/debug2.jpg)
   - ![image](assets/debug3.jpg)
 - Компіляція програми у терміналі:
-- 
-![Знімок екрана 2022-10-28 151421](https://user-images.githubusercontent.com/67918913/198584570-8d105063-629c-49a5-8596-deded1934c25.png)
+  - ![Знімок екрана 2022-10-28 151421](https://user-images.githubusercontent.com/67918913/198584570-8d105063-629c-49a5-8596-deded1934c25.png)
   
 ### 2.1 Засоби ООП
 - Java code convention
