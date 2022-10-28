@@ -32,11 +32,11 @@
   - ![image](assets/debug1.jpg)
 
 - Відлагодження програми та показ результатів виконання:
-  - 
-  - ![image](assets/debug3.jpg)
-  - ![image](assets/debug4.jpg)
+  - ![Знімок екрана 2022-10-28 154253](https://user-images.githubusercontent.com/67918913/198590101-f9013998-b5f4-466a-abfa-10aeaaa21bbb.png)
+  - ![image](https://user-images.githubusercontent.com/67918913/198590151-ac358d14-b4ed-4de0-99b6-6a05a243b5f6.png)
+  - ![image](https://user-images.githubusercontent.com/67918913/198590474-93810bc0-bfce-4c59-b8ad-df189907ad55.png)
 - Компіляція програми у терміналі:
-  - ![image](assets/console.jpg)
+  - ![image](https://user-images.githubusercontent.com/67918913/198590555-d3ec25ca-b75a-4009-a7c5-46a2a13245dc.png)
   
 ### 2.1 Засоби ООП
 - Java code convention
@@ -47,25 +47,51 @@
 - Програма має лише один клас
 ### 2.3 Важливі фрагменти програми:
 ~~~java
-/**
-     * Finding the largest digit in a number
-     *
-     * @param value the number in which to look for the largest digit
-     * @return the largest digit in a number
-     */
-    static int findBiggestNumber(int number) {
-        if(number < 0) 
-        	number *= -1;
-        int biggestNumber = 0;
-        while (number != 0) {
-            if (number % 10 > biggestNumber)
-            	biggestNumber = number % 10;
-            number /= 10;
-        }
-        return biggestNumber;
-    }
+static int find(int number) {
+		
+		int position = 0, position1 = 0;
+		int fixed = 0;
+		int m = 0, m1 = 0;
+		int copy = number, copy1 = number;
+		while (copy >= 10) {
+			copy /= 10;
+			
+			position++;
+			m++;
+		}
+		m++;
+		m1 = m;
+		position++;
+        position1 = position;
+		int low = number % 10;
+		fixed = m;
+		while (m!=0) {
+			if(number % 10 < low){
+				low = number % 10;
+				if(low == number % 10)
+				    fixed = position;
+			}
+
+			number /= 10;
+			position--;
+			m--;
+		}
+		while (m1!=0) {
+			if(copy1 % 10 < low){
+				low = copy1 % 10;
+			}
+			if(position1 < fixed){
+    			if(copy1 % 10 == low)
+    			    System.out.print(position1 + " ");
+			}
+			copy1 /= 10;
+			position1--;
+			m1--;
+		}
+		return fixed;
+	}
 ~~~
 ## Варіанти використання
-  Припустимо, що рандомне число - це код у 10-бітній системі. Ми знаходимо найбільше значення біту
+  Знаходження найменших чисел із цілочисленного значення
 ## Висновки
 На цій лабораторній роботі навчились працювати з java.util.Random,декомпозицією
