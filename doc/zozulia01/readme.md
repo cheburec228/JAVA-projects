@@ -68,8 +68,10 @@
   ```
 
 - Відлагодження програми та показ результатів виконання:
-  - ![image](assets/debug2.jpg)
-  - ![image](assets/debug3.jpg)
+  - ![image](https://user-images.githubusercontent.com/67918913/198586051-56e6983f-dab9-4720-9cf9-fea5d8ea5ff3.png)
+  - ![image](https://user-images.githubusercontent.com/67918913/198586201-3c6710de-263b-49fd-be13-6868096f720c.png)
+  - ![image](https://user-images.githubusercontent.com/67918913/198586328-fb16c174-496f-4d84-bf18-25a4afd52f73.png)
+
 - Компіляція програми у терміналі:
   - ![Знімок екрана 2022-10-28 151421](https://user-images.githubusercontent.com/67918913/198584570-8d105063-629c-49a5-8596-deded1934c25.png)
   
