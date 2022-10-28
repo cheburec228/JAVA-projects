@@ -29,7 +29,8 @@
 - Структура программи:
   - Головний клас з точкою входа в програму знаходиться у пакеті: ua.khpi.oop.zozulia02.Main
 - Код програми та брейкпоінти, що будуть використовуватись відлагодником для перевірки роботи програми:
-  - ![image](assets/debug1.jpg)
+  - ![image](https://user-images.githubusercontent.com/67918913/198592677-dd2d7a05-c10f-4998-ae84-97b88c008571.png) ![image](https://user-images.githubusercontent.com/67918913/198592783-4e331252-ee45-4e02-bb45-3cf38d2ecfa5.png)
+
 
 - Відлагодження програми та показ результатів виконання:
   - ![Знімок екрана 2022-10-28 154253](https://user-images.githubusercontent.com/67918913/198590101-f9013998-b5f4-466a-abfa-10aeaaa21bbb.png)
