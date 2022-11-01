@@ -21,25 +21,25 @@
 - Розробити прогрму 
 - Оформити роботу
 
-
 ### 1.3 Задача
-див. у 1
+4. Бібліотека∗
+Дані про книгу: ISBN; назва; автори (кількість не обмежена); видавництво; жанр; дата видання.
 
 ## 2. Вивід у консоль
 ~~~bash
-Entry path: E:\java\vacancies
+Entry path: C:\Users\Vyacheslav\eclipse-workspace\zozulia-vyacheslav\src\ua\khpi\oop\zozulia08\books
 Done
 ~~~
-<img src="img/photo.jpg">
-<img src="img/photo2.jpg">
+![image](https://user-images.githubusercontent.com/67918913/199194190-be3974ae-5895-4cf6-bae6-d0c5c59ffd06.png)
+![image](https://user-images.githubusercontent.com/67918913/199194255-3ce2653d-7d2f-4d85-9e74-4af20c7e5980.png)
 ### 2.1 Засоби ООП
 - Java code convention
 - JDK:
 - ООП
 ### 2.2 Ієрархія та структура класів
 - 1. Main
-- 2. fullVacanises
-- 3. vacanices
+- 2. FullBooks
+- 3. books
 
 ### 2.3 Важливі фрагменти програми:
 - Введення пасу сейвінгу xml
@@ -48,20 +48,19 @@ scanner = new Scanner(System.in);
 System.out.print("Entry path: ");
 String path = scanner.nextLine();
 ~~~
-
 - Генерація XML
 ~~~java
 try {
-  XMLEncoder x = new XMLEncoder(new BufferedOutputStream(new FileOutputStream(path + ".xml")));
-  x.writeObject(full);
-  x.close();
-  System.out.println("Done")
-} catch (FileNotFoundException e) {
-  e.printStackTrace();
-  System.out.println("Error");
-}
+			XMLEncoder x = new XMLEncoder(new BufferedOutputStream(new FileOutputStream(path + ".xml")));
+			x.writeObject(full);
+			x.close();
+			System.out.println("Done");
+        } catch (FileNotFoundException e) {
+			e.printStackTrace();
+			System.out.println("Error");
+		}
 ~~~
 ## Варіанти використання
 Демонстрація роботи ООП 
 ## Висновки
-На цій лабораторній роботі навчились працювати з ООП
+У ході лабороторної роботи навчився використовувати об'єктно-орієнтований підхід для розробки об'єкта предметної (прикладної) галузі.
