@@ -35,10 +35,7 @@
 див. у 1
 
 ## 2. Вивід у консоль
-~~~bash
-- 
-
-~~~
+- ![image](https://user-images.githubusercontent.com/67918913/199188598-b287f017-fc5d-46c7-8990-ce2ab4c0d5aa.png)
   
 ### 2.1 Засоби ООП
 - Java code convention
