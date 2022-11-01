@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.4.1" class="java.beans.XMLDecoder">
+ <object class="ua.khpi.oop.zozulia08.FullBooks">
+  <void property="books">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="ua.khpi.oop.zozulia08.books">
+      <void property="ISBN">
+       <string>978-617-12-8599-6</string>
+      </void>
+      <void property="autors">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <string>Стівен Кінг</string>
+        </void>
+       </object>
+      </void>
+      <void property="date">
+       <int>2021</int>
+      </void>
+      <void property="genre">
+       <string>Фантастика</string>
+      </void>
+      <void property="name">
+       <string>Темна Вежа VI. Пісня Сюзанни</string>
+      </void>
+      <void property="publishing">
+       <string>Книжковий клуб &quot;Клуб Сімейного Дозвілля&quot;</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ua.khpi.oop.zozulia08.books">
+      <void property="ISBN">
+       <string>978-617-7561-21-6</string>
+      </void>
+      <void property="autors">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <string>Масао Китами</string>
+        </void>
+       </object>
+      </void>
+      <void property="date">
+       <int>2019</int>
+      </void>
+      <void property="genre">
+       <string>Фантастика</string>
+      </void>
+      <void property="name">
+       <string>Самурай без меча - Масао Китами</string>
+      </void>
+      <void property="publishing">
+       <string>Book Chef</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
