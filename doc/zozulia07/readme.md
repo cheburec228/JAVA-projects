@@ -23,7 +23,7 @@
 Дані про книгу: ISBN; назва; автори (кількість не обмежена); видавництво; жанр; дата видання.
 
 ## 2. Вивід у консоль
-- 
+- ![image](https://user-images.githubusercontent.com/67918913/199192298-fcd761b6-8587-4a73-ac0f-12a62668e904.png)
   
 ### 2.1 Засоби ООП
 - Java code convention
@@ -31,45 +31,50 @@
 - Ітератор
 ### 2.2 Ієрархія та структура класів
 - 1. Main
-- 2. vacancies
+- 2. books
 
 ### 2.3 Важливі фрагменти програми:
 - Занесення у класс інформацію
 ~~~java
-    public void setName(final String value) {
-        this.name = value;
-    }
-
-    public void setCompany(final String value) {
-    	this.company = value;
-    }
-    public void setWorkingСonditions(final String value) {
-    	this.WorkingСonditions = value;
-    }
-    public void setEarn(final int value) {
-    	this.Earn = value;
-    }
-    public void setTerms(final List list) {
-    	this.Terms = list;
-    }
+    public void setISBN(final String value) {
+	        this.ISBN = value;
+	    }
+	    public void setName(final String value) {
+	        this.name = value;
+	    }
+	    public void setPublishing(final String value) {
+	        this.publishing = value;
+	    }
+	    public void setGenre(final String value) {
+	        this.genre = value;
+	    }
+	    public void setDate(final int value) {
+	    	this.date = value;
+	    }
+	    public void setAutors(final List list) {
+	    	this.Autors = list;
+	    }
 ~~~
 - Отримання інформації
 ~~~java
-    public String getName() {
-        return name;
-    }
-    public String getCompany() {
-        return company;
-    }
-    public String getWorkingСonditions() {
-    	return WorkingСonditions;
-    }
-    public int getEarn() {
-    	return Earn;
-    }
-    public List getTerms() {
-        return Terms;
-    }
+    public String getISBN() {
+	        return ISBN;	
+	    }
+	    public String getName() {
+	        return name;	
+	    }
+	    public String getPublishing() {
+	        return publishing;	
+	    }
+	    public String getGenre() {
+	        return genre;	
+	    }
+	    public int getDate() {
+	    	return date;
+	    }
+	    public List getAutors() {
+	        return Autors;
+	    }
 ~~~
 ## Варіанти використання
 Демонстрація роботи ООП 
